@@ -1,5 +1,5 @@
 //
-//  LGViewController.h
+//  FirstViewController.h
 //  HelloIOS
 //
 //  Created by jiudao-lingang on 14-6-20.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LGPassValue.h"
 
-@interface LGViewController : UIViewController
+@interface FirstViewController : UIViewController
 
 @end

@@ -21,6 +21,10 @@
 		37B0FDC71953DA2A00A78006 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B0FDA91953DA2A00A78006 /* UIKit.framework */; };
 		37B0FDCF1953DA2A00A78006 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37B0FDCD1953DA2A00A78006 /* InfoPlist.strings */; };
 		37B0FDD11953DA2A00A78006 /* HelloIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0FDD01953DA2A00A78006 /* HelloIOSTests.m */; };
+		37B0FDDB1953E10700A78006 /* icon_scenery.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B0FDDA1953E10700A78006 /* icon_scenery.png */; };
+		37B0FDDE1953E14700A78006 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0FDDD1953E14700A78006 /* FirstViewController.m */; };
+		37B0FDE1195410F900A78006 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0FDE0195410F900A78006 /* SecondViewController.m */; };
+		37B0FDE91954156C00A78006 /* UIAlertView+NSLogMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0FDE81954156C00A78006 /* UIAlertView+NSLogMsg.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,14 @@
 		37B0FDCC1953DA2A00A78006 /* HelloIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloIOSTests-Info.plist"; sourceTree = "<group>"; };
 		37B0FDCE1953DA2A00A78006 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37B0FDD01953DA2A00A78006 /* HelloIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloIOSTests.m; sourceTree = "<group>"; };
+		37B0FDDA1953E10700A78006 /* icon_scenery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_scenery.png; sourceTree = "<group>"; };
+		37B0FDDC1953E14700A78006 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		37B0FDDD1953E14700A78006 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		37B0FDDF195410F900A78006 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		37B0FDE0195410F900A78006 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		37B0FDE41954129800A78006 /* LGPassValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPassValue.h; sourceTree = "<group>"; };
+		37B0FDE71954156C00A78006 /* UIAlertView+NSLogMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+NSLogMsg.h"; sourceTree = "<group>"; };
+		37B0FDE81954156C00A78006 /* UIAlertView+NSLogMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+NSLogMsg.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +129,15 @@
 				37B0FDB71953DA2A00A78006 /* Main.storyboard */,
 				37B0FDBA1953DA2A00A78006 /* LGViewController.h */,
 				37B0FDBB1953DA2A00A78006 /* LGViewController.m */,
+				37B0FDDC1953E14700A78006 /* FirstViewController.h */,
+				37B0FDDD1953E14700A78006 /* FirstViewController.m */,
+				37B0FDDF195410F900A78006 /* SecondViewController.h */,
+				37B0FDE0195410F900A78006 /* SecondViewController.m */,
+				37B0FDE41954129800A78006 /* LGPassValue.h */,
 				37B0FDBD1953DA2A00A78006 /* Images.xcassets */,
 				37B0FDAC1953DA2A00A78006 /* Supporting Files */,
+				37B0FDE71954156C00A78006 /* UIAlertView+NSLogMsg.h */,
+				37B0FDE81954156C00A78006 /* UIAlertView+NSLogMsg.m */,
 			);
 			path = HelloIOS;
 			sourceTree = "<group>";
@@ -126,6 +145,7 @@
 		37B0FDAC1953DA2A00A78006 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37B0FDDA1953E10700A78006 /* icon_scenery.png */,
 				37B0FDAD1953DA2A00A78006 /* HelloIOS-Info.plist */,
 				37B0FDAE1953DA2A00A78006 /* InfoPlist.strings */,
 				37B0FDB11953DA2A00A78006 /* main.m */,
@@ -229,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B0FDDB1953E10700A78006 /* icon_scenery.png in Resources */,
 				37B0FDBE1953DA2A00A78006 /* Images.xcassets in Resources */,
 				37B0FDB01953DA2A00A78006 /* InfoPlist.strings in Resources */,
 				37B0FDB91953DA2A00A78006 /* Main.storyboard in Resources */,
@@ -250,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B0FDE1195410F900A78006 /* SecondViewController.m in Sources */,
 				37B0FDB21953DA2A00A78006 /* main.m in Sources */,
 				37B0FDB61953DA2A00A78006 /* LGAppDelegate.m in Sources */,
+				37B0FDE91954156C00A78006 /* UIAlertView+NSLogMsg.m in Sources */,
 				37B0FDBC1953DA2A00A78006 /* LGViewController.m in Sources */,
+				37B0FDDE1953E14700A78006 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -366,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -380,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloIOS/HelloIOS-Prefix.pch";
 				INFOPLIST_FILE = "HelloIOS/HelloIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +418,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloIOS/HelloIOS-Prefix.pch";
 				INFOPLIST_FILE = "HelloIOS/HelloIOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
